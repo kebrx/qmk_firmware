@@ -65,6 +65,7 @@ led_flags_t rgb_time_out_saved_flag;    // Store LED flag before timeout so it c
 // };
 
 #define _BL   0     // Base Layer
+#define _MSL  2
 #define _NL   6     // Numpad Layer
 #define _ML   8     // Mod Layer
 #define _DLR  12    // HyperCom Layer
@@ -73,7 +74,7 @@ led_flags_t rgb_time_out_saved_flag;    // Store LED flag before timeout so it c
 #define _URL  9     // URL Macro Layer
 #define _WL   10    // Work Macro Layer
 #define _HL   11    // Hack Layer
-#define _GL   7     // Game Command Macro Layer
+#define _GL   7     // Git Macro Layer
 
 
 enum tapdance_keycodes {
@@ -121,6 +122,8 @@ enum ctrl_keycodes {
   M_SPACE,
   M_PSERV,
   M_NMAP,
+  SEL_CPY,
+  COPY_ALL,
   M_NMAPD,
   TERMINAL
 };
@@ -157,6 +160,7 @@ enum work_string_macro_keycodes {
 
 enum hack_string_macro_keycodes {
   H_NMAP = W_APPLY + 1,
+  H_PORTS,
   H_IXIO,
   H_HTTP
 };
