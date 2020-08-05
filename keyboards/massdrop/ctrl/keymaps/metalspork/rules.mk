@@ -31,3 +31,6 @@ HD44780_ENABLE = no         # Enable support for HD44780 based LCDs
 VIRTSER_ENABLE = no         # USB Serial Driver
 RAW_ENABLE = no             # Raw device
 AUTO_SHIFT_ENABLE = no      # Auto Shift
+
+DEBOUNCE_TYPE = eager_pk
+DEBOUNCE = 22
