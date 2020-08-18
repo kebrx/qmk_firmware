@@ -33,4 +33,4 @@ RAW_ENABLE = no             # Raw device
 AUTO_SHIFT_ENABLE = no      # Auto Shift
 
 DEBOUNCE_TYPE = eager_pk
-DEBOUNCE = 22
+DEBOUNCE = 52
